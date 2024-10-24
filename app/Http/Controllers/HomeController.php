@@ -16,4 +16,9 @@ class HomeController extends Controller
     {
         return view('blade');
     }
+
+    public function createUsers()
+    {
+        return view('createUsers');
+    }
 }

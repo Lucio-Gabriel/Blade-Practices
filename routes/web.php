@@ -8,5 +8,6 @@ Route::get('/', function () {
 });
 
 Route::get('/livewire', [HomeController::class, 'livewire'])->name('index.livewire');
-
 Route::get('/blade', [HomeController::class, 'blade'])->name('index.blade');
+
+Route::get('/createUser', [HomeController::class, 'createUsers'])->name('create.user');

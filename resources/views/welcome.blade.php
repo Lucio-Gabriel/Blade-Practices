@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +7,23 @@
     <title>Blade-aulas</title>
     @vite('resources/css/app.css')
 </head>
-<body class="bg-slate-500">
+<body class="bg-[#0F172A]">
 
     <div class="flex items-start justify-center pt-52">
-    <h1 class="text-3xl font-medium">Bem vindo ao sistema de praticas</h1>
+    <h1 class="text-white text-3xl font-medium">Bem vindo ao sistema de praticas</h1>
     </div>
 
     <div class="flex items-start justify-center pt-12 gap-4">
-        @component('components.btn')
-         Livewire
-        @endcomponent
 
-        @component('components.btn')
+
+        <x-btn-livewire>
+         Livewire
+        </x-btn-livewire>
+
+        <x-btn-blade>
          Blade
-        @endcomponent
+        </x-btn-blade>
+
     </div>
 
 </body>

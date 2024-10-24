@@ -15,9 +15,12 @@
 
     <x-center-div>
 
-    <x-link href="https://tailwindcss.com/docs/animation#prefers-reduced-motion" target="_blank">
-    Cadastrar um usuario
+    <x-link href="{{ route('create.user') }}">
+        Cadastrar um usuario
     </x-link>
+
+      
+
 
     </x-center-div>
 

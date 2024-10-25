@@ -14,15 +14,15 @@ return new class extends Migration
         Schema::create('employees', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('cpf');
-            $table->integer('idade');
-            $table->string('genero');
-            $table->string('email');
-            $table->string('telefone');
+            $table->string('email')->unique();
             $table->string('endereco');
-            $table->string('data_contratacao');
-            $table->string('salario');
+            $table->string('genero');
             $table->string('cargo');
+            $table->string('telefone')->unique();
+            $table->string('cpf', 14)->unique();
+            // $table->integer('idade');
+            // $table->string('data_contratacao');
+            // $table->string('salario');
             $table->timestamps();
         });
     }

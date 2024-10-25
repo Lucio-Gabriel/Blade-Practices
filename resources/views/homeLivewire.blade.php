@@ -9,6 +9,10 @@
 </head>
 <body class="bg-[#0F172A]">
 
+    <div class="flex flex-row-reverse pt-3 mr-2">
+    <x-homeBtn />
+    </div>
+
     <div class="flex items-start justify-center pt-52">
     <h1 class="text-white text-3xl font-medium">Escolha uma ação <span class="animate-bounce">🔥</span> </h1>
     </div>
@@ -16,11 +20,12 @@
     <x-center-div>
 
     <x-link href="{{ route('create.user') }}">
-        Cadastrar um usuario
+        Cadastrar um funcionario
     </x-link>
 
-      
-
+    <x-link href="#">
+        Lista de funcionarios
+    </x-link>
 
     </x-center-div>
 

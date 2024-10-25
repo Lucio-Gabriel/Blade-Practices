@@ -19,7 +19,6 @@ class Employee extends Model
         'idade',
         'genero',
         'email',
-        'email',
         'telefone',
         'endereco',
         'data_contratacao',

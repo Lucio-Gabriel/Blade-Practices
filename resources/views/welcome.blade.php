@@ -10,17 +10,17 @@
 <body class="bg-[#0F172A]">
 
     <div class="flex items-start justify-center pt-52">
-    <h1 class="text-white text-3xl font-medium">Bem Vindo <span>👨🏾‍💻</span></h1>
+    <h1 class="text-white text-3xl font-medium">Bem Vindo a Express Admin <span>👨🏾‍💻</span></h1>
     </div>
 
         <x-center-div>
 
         <x-link href="{{route('index.livewire')}}">
-        Livewire
+        Funcionarios
         </x-link>
 
         <x-link href="{{route('index.blade')}}">
-        Blade
+        Produtos
         </x-link>
 
        </x-center-div>

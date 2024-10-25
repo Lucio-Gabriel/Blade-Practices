@@ -10,14 +10,14 @@
 <body class="bg-[#0F172A]">
 
     <div class="flex items-start justify-center pt-52">
-    <h1 class="text-white text-3xl font-medium"> Cadastre Usuario Aqui<span class="animate-bounce">🔥</span> </h1>
+    <h1 class="text-white text-3xl font-medium"> Cadastre Seu funcionario aqui<span class="animate-bounce">🔥</span> </h1>
     </div>
 
-    <x-center-div>
 
-    <livewire:create-users />
+    <div class="pt-6">
+    <livewire:create-employees />
+    </div>
 
-    </x-center-div>
 
 
 

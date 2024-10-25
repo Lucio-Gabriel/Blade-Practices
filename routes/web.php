@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/welcome', [HomeController::class, 'welcome'])->name('index');
+Route::get('/', [HomeController::class, 'welcome'])->name('index');
 
 Route::get('/livewire', [HomeController::class, 'livewire'])->name('index.livewire');
 Route::get('/blade', [HomeController::class, 'blade'])->name('index.blade');

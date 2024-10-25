@@ -9,6 +9,10 @@
 </head>
 <body class="bg-[#0F172A]">
 
+    <div class="flex flex-row-reverse pt-3 mr-2">
+    <x-back-btn />
+    </div>
+
     <div class="flex items-start justify-center pt-52">
     <h1 class="text-white text-3xl font-medium"> Cadastre Seu funcionario aqui<span class="animate-bounce">🔥</span> </h1>
     </div>

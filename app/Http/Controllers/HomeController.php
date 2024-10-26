@@ -8,7 +8,10 @@ class HomeController extends Controller
 {
     //
 
-    
+    public function login()
+    {
+        return view('login');
+    }
 
     public function welcomeSystem()
     {
@@ -25,8 +28,5 @@ class HomeController extends Controller
         return view('createEmployees');
     }
 
-    // public function blade()
-    // {
-    //     return view('blade');
-    // }
+
 }

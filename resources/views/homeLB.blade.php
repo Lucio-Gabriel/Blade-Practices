@@ -19,7 +19,7 @@
 
     <x-center-div>
 
-    <x-link href="{{ route('create.user') }}">
+    <x-link href="{{route('create.employee')}}">
         Cadastrar um funcionario
     </x-link>
 

@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('endereco');
-            $table->string('genero');
-            $table->string('cargo');
-            $table->string('telefone')->unique();
+            $table->string('address');
+            $table->string('gender');
+            $table->string('position');
+            $table->string('telephone')->unique();
             $table->string('cpf', 14)->unique();
             // $table->integer('idade');
             // $table->string('data_contratacao');

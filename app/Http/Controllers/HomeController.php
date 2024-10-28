@@ -28,5 +28,10 @@ class HomeController extends Controller
         return view('createEmployees');
     }
 
+    public function listEmplooyee()
+    {
+        return view('list-employees');
+    }
+
 
 }

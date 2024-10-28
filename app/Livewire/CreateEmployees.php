@@ -30,7 +30,7 @@ class CreateEmployees extends Component
             ])
         );
 
-        return $this->redirect(route('index.livewire'));
+        return $this->redirect(route('index.homeLB'));
     }
 
     public function render()

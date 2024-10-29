@@ -10,16 +10,16 @@
 <body class="bg-[#0F172A]">
 
     <div class="flex flex-row-reverse pt-3 mr-2">
-        <x-homeBtn />
+        <x-back-btn />
     </div>
 
-    <div class="flex items-start justify-center pt-52">
+    <div class="flex items-start justify-center ">
         <h1 class="text-white text-3xl font-medium">Sua lista de Funcionarios <span class="animate-bounce">🔥</span> </h1>
     </div>
 
-    <x-center-div>
+
         <livewire:employeeslist />
-    </x-center-div>
+
 
 </body>
 </html>

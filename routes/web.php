@@ -3,13 +3,15 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+// Route::get('/', [HomeController::class, 'login'])->name('login');
 
-Route::get('/welcome', [HomeController::class, 'welcome'])->name('index');
+Route::get('/', [HomeController::class, 'welcomeSystem'])->name('index');
 
-Route::get('/livewire', [HomeController::class, 'livewire'])->name('index.livewire');
-Route::get('/blade', [HomeController::class, 'blade'])->name('index.blade');
+Route::get('/bem-vindo', [HomeController::class, 'start'])->name('index.homeLB');
 
-Route::get('/createUser', [HomeController::class, 'createUsers'])->name('create.user');
+Route::get('/criar-funcionarios', [HomeController::class, 'createEmployee'])->name('create.employee');
+
+Route::get('/lista-funcionarios', [HomeController::class, 'listEmplooyee'])->name('list.employee');
+
+
+// Route::get('/blade', [HomeController::class, 'blade'])->name('index.blade');

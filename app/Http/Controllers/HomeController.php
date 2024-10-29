@@ -7,23 +7,31 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     //
-    public function welcome()
+
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function welcomeSystem()
     {
         return view('welcome');
     }
 
-    public function livewire()
+    public function start()
     {
-        return view('homeLivewire');
+        return view('homeLB');
     }
 
-    public function blade()
+    public function createEmployee()
     {
-        return view('blade');
+        return view('createEmployees');
     }
 
-    public function createUsers()
+    public function listEmplooyee()
     {
-        return view('createUsers');
+        return view('list-employees');
     }
+
+
 }

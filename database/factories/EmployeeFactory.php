@@ -18,15 +18,15 @@ class EmployeeFactory extends Factory
     {
         return [
         'name' => fake()->name(),
-        'cpf' => fake()->numerify('###.###.###-##'),
-        'idade' => fake()->numberBetween(18, 65),
-        'genero' => fake()->randomElement(['Masculino', 'Feminino', 'Outro']),
         'email' => fake()->unique()->safeEmail(),
-        'telefone' => fake()->numerify('(##) #####-####'),
-        'endereco' => fake()->address(),
-        'data_contratacao' => fake()->date(),
-        'salario' => fake()->randomFloat(2, 2000, 10000),
-        'cargo' => fake()->jobTitle(),
+        'address' => fake()->address(),
+        'gender' => fake()->randomElement(['Masculino', 'Feminino', 'Outro']),
+        'position' => fake()->jobTitle(),
+        'telephone' => fake()->numerify('(##) #####-####'),
+        'cpf' => fake()->numerify('###.###.###-##'),
+        // 'idade' => fake()->numberBetween(18, 65),
+        // 'data_contratacao' => fake()->date(),
+        // 'salario' => fake()->randomFloat(2, 2000, 10000),
         ];
     }
 }

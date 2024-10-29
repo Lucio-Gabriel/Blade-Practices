@@ -15,15 +15,14 @@ class Employee extends Model
     protected $fillable = [
         'id',
         'name',
-        'cpf',
-        'idade',
-        'genero',
         'email',
-        'telefone',
-        'endereco',
-        'data_contratacao',
-        'salario',
-        'cargo',
-
+        'address',
+        'gender',
+        'position',
+        'telephone',
+        'cpf',
+        // 'idade',
+        // 'data_contratacao',
+        // 'salario',
     ];
 }

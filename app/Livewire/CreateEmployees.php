@@ -9,11 +9,13 @@ class CreateEmployees extends Component
 {
 
     public string $name = '';
+
     public string $email = '';
-    public string $endereco = '';
-    public string $genero = '';
-    public string $cargo = '';
-    public string $telefone = '';
+    public string $address = '';
+    public string $gender = '';
+
+    public string $position = '';
+    public string $telephone = '';
     public string $cpf = '';
 
     public function save()
@@ -22,10 +24,10 @@ class CreateEmployees extends Component
             $this->only([
                 'name',
                 'email',
-                'endereco',
-                'genero',
-                'cargo',
-                'telefone',
+                'address',
+                'gender',
+                'position',
+                'telephone',
                 'cpf'
             ])
         );

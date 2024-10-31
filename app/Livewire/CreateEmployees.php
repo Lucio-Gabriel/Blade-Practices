@@ -9,15 +9,12 @@ class CreateEmployees extends Component
 {
 
     public string $name = '';
-
     public string $email = '';
     public string $address = '';
     public string $gender = '';
-
     public string $position = '';
     public string $telephone = '';
     public string $cpf = '';
-
     public function save()
     {
         Employee::create(

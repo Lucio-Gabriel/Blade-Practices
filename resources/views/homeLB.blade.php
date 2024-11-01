@@ -7,7 +7,7 @@
     <title>Seus Projetos livewire</title>
      @vite('resources/css/app.css')
 </head>
-<body class="bg-[#0F172A]">
+<body class="bg-blue-600">
 
     <div class="flex flex-row-reverse pt-3 mr-2">
     <x-homeBtn />

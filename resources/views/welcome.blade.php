@@ -9,9 +9,9 @@
 </head>
 <body >
 
-        <div class="flex items-center justify-center pt-36 ml-52">
-        <h1 class="text-3xl pt-36">Bem vindo ao <span class="font-medium text-[#0F172A]">Inventa</span></h1>
-        <img class="animate-pulse" src="assests/image/icon.inventa.blue.png" alt="" width="200" height="200">
+        <div class="flex items-center justify-center pt-36 ml-52  sm:flex text-center pr-28">
+        <h1 class="text-3xl pt-36 ">Bem vindo ao <span class="font-medium text-[#0F172A]">Inventa</span></h1>
+        <img class="animate-pulse " src="assests/image/icon.inventa.blue.png" alt="" width="200" height="200">
         </div>
 
          <x-center-div>

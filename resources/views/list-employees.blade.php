@@ -14,7 +14,7 @@
     </div>
 
     <div class="flex items-start justify-center ">
-        <h1 class="text-white text-3xl font-medium">Sua lista de Funcionarios <span class="animate-bounce">🔥</span> </h1>
+        <h1 class="text-white text-3xl font-medium">Sua lista de Funcionarios <span class="animate-bounce"><i class="bi bi-person-lines-fill"></i></span> </h1>
     </div>
 
 
